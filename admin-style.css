@@ -1,0 +1,264 @@
+button, input[type='button']{
+	cursor: pointer;
+}
+input{
+	margin-bottom: 10px;
+}
+.edit-post-visual-editor__post-title-wrapper{
+	margin-top: 0;
+}
+.edit-post-visual-editor{
+	height: 120px !important;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    flex: 120px 0 0;
+}
+.admblock{
+	margin-bottom: 20px;
+}
+.admblock select{
+	display: block;
+}
+.admblock h2{
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+.admblock p{
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.many_items{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.many_items .item{
+	width: calc(25% - 10px);
+}
+.many_items.items_6 .item{
+	width: calc(16% - 10px);
+}
+.many_items.tri_items .item{
+	width: calc(33% - 10px);
+}
+.slides_images{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.slides_images .item img{
+	width: 100% !important;
+	height: auto !important;
+}
+.slides_images .item input, .slides_images .item button{
+	width: 100%;
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+}
+.empty_item{
+	display: none;
+}
+.item{
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 3px;
+	box-sizing: border-box;
+	margin: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	padding: 10px;
+}
+input[type='text'],textarea{
+	width: 100%;
+}
+.two_items{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.two_items .item{
+	width: calc(50% - 10px);
+}
+.dva_polya{
+	display: flex;
+	justify-content: space-between;
+	margin: 5px;
+}
+.dva_polya input:nth-child(1){
+	width: calc(100% - 75px);
+}
+.dva_polya input:nth-child(2){
+	width: 65px;
+}
+.popup{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: calc(100% - 280px);
+	height: 100%;
+	z-index: 100;
+	display: none;
+}
+.popup_over{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 101;
+	cursor: pointer;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,0.8);
+}
+.popup_sozdat_block{
+	width: 800px;
+	position: absolute;
+	padding: 25px;
+	background: #fff;
+	z-index: 102;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #fff;
+}
+.popup_sozdat_block h2{
+	font-size: 18px !important;
+	text-transform: uppercase;
+	margin-bottom: 15px !important;
+}
+.popup_sozdat_block .popup_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.popup_sozdat_block .popup_container button{
+	margin-bottom: 15px;
+}
+.invisible{
+	display: none;
+}
+textarea{
+	height: 300px;
+}
+.invisible_lang{
+	display: none;
+}
+.popup_bg{
+	position: absolute;
+    z-index: 101;
+    width: 100%;
+    max-height: calc(100% - 540px);
+    left: 0;
+    top: 60px;
+    margin: auto;
+}
+.popup_bg img{
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+.blocks_img{
+	display: none;
+}
+.tabs_content .tab{
+	display: none;
+}
+.tabs_content #tab_first{
+	display: block;
+}
+.tabs ul{
+	display: flex;
+}
+.tabs ul a{
+	display: block;
+	padding: 8px;
+	border: 1px solid rgba(0,0,0,0.2);
+	text-decoration: none;
+	color: rgba(0,0,0,0.7);
+	outline: none;
+}
+.tabs ul a.active{
+	background-color: rgba(0,0,0,0.1);
+}
+.tabs ul a:hover{
+	background-color: rgba(0,0,0,0.05);
+}
+hr{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.images_flex{
+	display: flex;
+	justify-content: space-between;
+}
+.adm_goroda{
+	display: flex;
+	justify-content: space-between;
+}
+.adm_goroda .gorod{
+	width: 140px;
+}
+.adm_goroda .procent{
+	width: 50px;
+}
+.adm_goroda .sert_kolich{
+	width: 160px;
+}
+.adm_goroda .galka{
+	width: 50px;
+}
+.block_head{
+	display: flex;
+	justify-content: space-between;
+	background: rgba(0,0,0,0.1);
+}
+.perestavit_bloki{
+	display: flex;
+	align-items: center;
+}
+.block_vverh:before, .block_vniz:before{
+    display: inline-block;
+    font: normal 20px/1 dashicons;
+}
+.block_vverh{
+	padding-top: 3px;
+	cursor: pointer;
+}
+.block_vniz{
+	margin-right: 10px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.block_vverh:before{
+	content: "\f142";	
+}
+.block_vniz:before{
+	content: "\f140";
+}
+.block_vverh:hover, .block_vniz:hover{
+	color: #000;
+}
+.edit_block.perv_block .block_vverh, .edit_block.posl_block .block_vniz{
+	display: none;
+}
+.edit_block.posl_block .block_vverh{
+	margin-right: 15px;
+}
+.bloki_container{
+	display: flex;
+	flex-direction: column;
+}
+.edit_block{
+	margin-bottom: 50px;
+}
+.edit_block.posl_block{
+	order: 101;
+}
